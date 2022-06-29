@@ -98,7 +98,7 @@ void print_winner(void)
     {
         if(candidates[i].votes == max_votes) // Se alguma posição do array for igual ao número max_votes, ele vai imprimir ao nome do candidato correspondente aquela certa posição do votes 
         {
-            printf("Vencedo(a)(s): %s\n", candidates[i].name);
+            printf("Vencedor(a)(s): %s\n", candidates[i].name);
         }
     }
     return;
